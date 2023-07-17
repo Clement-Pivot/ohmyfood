@@ -5,13 +5,15 @@
   "main": "index.html",
   "scripts": {
     "sass": "sass --watch ./assets/scss/main.scss:./assets/css/main.css",
-    "prefix": "postcss ./assets/css/main.css --use autoprefixer -d ./public/css/"
+    "prefix": "postcss --watch ./assets/css/main.css --use autoprefixer -d ./public/css/",
+    "start": "concurrently \"npm run sass\" \"npm run prefix\""
   },
   "author": "",
   "license": "",
   "browserslist": "last 4 versions",
   "dependencies": {
     "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.0",
     "postcss": "^8.4.26",
     "postcss-cli": "^10.1.0",
     "sass": "^1.63.6"
