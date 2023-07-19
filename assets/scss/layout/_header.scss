@@ -10,14 +10,14 @@ header {
             position: relative;
         }
         .searchbar {
-            background-color: $background-color;
             margin: 0;
             height: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 500;
-            color: #353535;
+            color: $dark-grey;
+            background-color: $background-grey;
             i{
                 margin-right: 17px;
             }
