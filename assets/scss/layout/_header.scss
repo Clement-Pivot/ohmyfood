@@ -5,7 +5,7 @@ header {
             background-color: #fff;
             margin: 0;
             padding: 14px;
-            box-shadow: 0 1px 5px grey;
+            box-shadow: $nav-shadow;
             z-index: 2;
             position: relative;
         }
