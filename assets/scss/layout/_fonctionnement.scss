@@ -4,31 +4,39 @@
     }
     ol {
         list-style: none;
-        counter-reset: inst;
         padding: 0;
         margin: 0;
         li {
-            counter-increment: inst;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
             margin: 25px 32px;
             padding: 28px;
             background-color: $background-color;
-            border-radius: 50px;
+            font-weight: 600;
+            border-radius: 20px;
+            .fonctionnement__number {
+                color: $button-color;
+                background-color: $purple;
+                border-radius: 30px;
+                padding: 4px 8px;
+                position: absolute;
+                left: 18px;
+                font-size: 14px;
+            }
+            p {
+                position: relative;
+                left: -10%;
+                margin: 0;
+            }
             i {
                 color: $li-icon-color;
+                margin-right: 15px;
             }
             i.purple {
                 color: $purple;
             }
-        }
-        li::before{
-            content: counter(inst);
-            color: $button-color;
-            background-color: $purple;
-            border-radius: 30px;
-            padding: 7px 11px;
-            position: relative;
-            left: -40px;
-            font-size: 14px;
         }
     }
 }
