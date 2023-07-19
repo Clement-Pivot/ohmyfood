@@ -5,7 +5,7 @@
     ol {
         list-style: none;
         padding: 0;
-        margin: 0;
+        margin: 0 0 68px;
         li {
             display: flex;
             flex-direction: row;
@@ -16,6 +16,7 @@
             background-color: $background-color;
             font-weight: 600;
             border-radius: 20px;
+            box-shadow: $li-shadow;
             .fonctionnement__number {
                 color: $button-color;
                 background-color: $purple;
