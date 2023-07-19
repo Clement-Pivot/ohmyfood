@@ -1,7 +1,10 @@
 @import "./utils/variables";
-@import "./componnent/logo";
+@import "./base/body";
 @import "./base/text";
+@import "./componnent/logo";
+@import "./layout/header";
 @import "./layout/footer";
+@import "./layout/fonctionnement";
 
 img {
     width: 320px;
