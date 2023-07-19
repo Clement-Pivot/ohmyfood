@@ -4,8 +4,15 @@
     }
     ol {
         list-style: none;
+        counter-reset: inst;
+        padding: 0;
+        margin: 0;
         li {
             counter-increment: inst;
+            margin: 25px 32px;
+            padding: 28px;
+            background-color: $background-color;
+            border-radius: 50px;
             i {
                 color: $li-icon-color;
             }
@@ -15,10 +22,14 @@
         }
         li::before{
             content: counter(inst);
+            color: $button-color;
             background-color: $purple;
             border-radius: 30px;
-            width: 24px;
-            height: 24px;
+            padding: 7px 11px;
+            position: absolute;
+            left: 20px;
+            // top: 1px;
+            font-size: 14px;
         }
     }
 }
