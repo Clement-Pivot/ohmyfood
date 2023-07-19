@@ -1,0 +1,33 @@
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px 32px;
+    padding: 28px;
+    background-color: $background-color;
+    font-weight: 600;
+    border-radius: 20px;
+    box-shadow: $li-shadow;
+    .fonctionnement__number {
+        color: $button-color;
+        background-color: $purple;
+        border-radius: 30px;
+        padding: 4px 8px;
+        position: absolute;
+        left: 18px;
+        font-size: 14px;
+    }
+    p {
+        position: relative;
+        left: -10%;
+        margin: 0;
+    }
+    i {
+        color: $li-icon-color;
+        margin-right: 15px;
+    }
+    i.purple {
+        color: $purple;
+    }
+}
