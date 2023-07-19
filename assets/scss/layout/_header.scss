@@ -1,0 +1,26 @@
+header {
+    nav {
+        text-align: center;
+        h1 {
+            background-color: #fff;
+            margin: 0;
+            padding: 14px;
+            box-shadow: 0 1px 5px grey;
+            z-index: 2;
+            position: relative;
+        }
+        p {
+            background-color: $background-color;
+            margin: 0;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 500;
+            color: #353535;
+            i{
+                margin-right: 17px;
+            }
+        }
+    }
+}
