@@ -3,15 +3,22 @@
         margin: 48px 20px 26px;
     }
     ol {
+        list-style: none;
         li {
-            p {
-                i {
-                    color: $li-icon-color;
-                }
-                i.purple {
-                    color: $purple;
-                }
+            counter-increment: inst;
+            i {
+                color: $li-icon-color;
             }
+            i.purple {
+                color: $purple;
+            }
+        }
+        li::before{
+            content: counter(inst);
+            background-color: $purple;
+            border-radius: 30px;
+            width: 24px;
+            height: 24px;
         }
     }
 }
