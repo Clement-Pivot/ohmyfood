@@ -1,9 +1,7 @@
-@import "../utils/variables";
-
-.title {
+.logo {
     font-family: $title-font;
 }
 
-h1.title {
+nav .logo {
     font-size: $logo-font-size;
 }

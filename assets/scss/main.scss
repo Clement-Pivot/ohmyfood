@@ -1,3 +1,8 @@
 @import "./utils/variables";
-@import "./componnent/title";
+@import "./componnent/logo";
 @import "./base/text";
+@import "./layout/footer";
+
+img {
+    width: 320px;
+}
