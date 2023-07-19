@@ -1,5 +1,14 @@
 .fonctionnement {
-    h2 {
+    .header {
         margin: 48px 20px 26px;
+    }
+    ol {
+        li {
+            p{
+                i{
+                    color: $li-icon-color;
+                }
+            }
+        }
     }
 }
