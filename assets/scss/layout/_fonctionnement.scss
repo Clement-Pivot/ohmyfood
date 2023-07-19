@@ -4,9 +4,12 @@
     }
     ol {
         li {
-            p{
-                i{
+            p {
+                i {
                     color: $li-icon-color;
+                }
+                i.purple {
+                    color: $purple;
                 }
             }
         }
