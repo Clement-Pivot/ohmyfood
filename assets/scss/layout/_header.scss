@@ -9,18 +9,5 @@ header {
             z-index: 2;
             position: relative;
         }
-        .searchbar {
-            margin: 0;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 500;
-            color: $dark-grey;
-            background-color: $background-grey;
-            i{
-                margin-right: 17px;
-            }
-        }
     }
 }
