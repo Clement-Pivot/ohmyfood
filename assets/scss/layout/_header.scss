@@ -1,13 +1,11 @@
 header {
-    nav {
-        text-align: center;
-        h1 {
-            background-color: #fff;
-            margin: 0;
-            padding: 14px;
-            box-shadow: $nav-shadow;
-            z-index: 2;
-            position: relative;
-        }
+    text-align: center;
+    .logo {
+        background-color: #fff;
+        margin: 0;
+        padding: 14px;
+        box-shadow: $nav-shadow;
+        z-index: 2;
+        position: relative;
     }
 }
