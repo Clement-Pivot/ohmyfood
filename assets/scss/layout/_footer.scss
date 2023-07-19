@@ -1,3 +1,10 @@
-footer .logo {
-    font-size: $text-font-size;
+footer {
+    background-color: $footer-background-color;
+    .logo {
+        color: $footer-text-color;
+        font-size: $text-font-size;
+    }
+    a {
+        color: $footer-text-color;
+    }
 }
