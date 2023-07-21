@@ -6,7 +6,9 @@
   "scripts": {
     "sass": "sass --watch ./assets/scss/main.scss:./assets/css/main.css",
     "prefix": "postcss --watch ./assets/css/main.css --use autoprefixer -d ./public/css/",
-    "start": "concurrently \"npm run sass\" \"npm run prefix\""
+    "live-server": "npx live-server --port=5500",
+    "start:dev": "concurrently \"npm run sass\" \"npm run prefix\" \"npm run live-server\"",
+    "start": "npm run live-server"
   },
   "author": "",
   "license": "",
@@ -14,6 +16,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.2.0",
+    "live-server": "^1.2.2",
     "postcss": "^8.4.26",
     "postcss-cli": "^10.1.0",
     "sass": "^1.63.6"
