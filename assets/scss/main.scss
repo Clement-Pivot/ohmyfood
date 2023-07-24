@@ -1,14 +1,19 @@
 @import "./utils/variables";
 @import "./utils/mixins";
+
 @import "./base/body";
+
 @import "./componnent/logo";
 @import "./componnent/header";
 @import "./componnent/button";
 @import "./componnent/searchbar";
 @import "./componnent/li";
 @import "./componnent/restaurant__card";
+
 @import "./layout/header";
 @import "./layout/description";
 @import "./layout/fonctionnement";
 @import "./layout/index__restaurants";
 @import "./layout/footer";
+
+@import "./pages/restaurant";
