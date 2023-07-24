@@ -1,3 +1,11 @@
-@mixin gradient($angle: 0deg) {
-    background: linear-gradient($angle, #9356DC, #FF79DA);
+@mixin gradient($angle: 0deg, $prop: background) {
+    #{$prop}: linear-gradient($angle, #9356DC, #FF79DA);
+}
+
+@mixin fa-linear-gradient() {
+    background: linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
