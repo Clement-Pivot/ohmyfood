@@ -42,11 +42,16 @@
         }
     }
     .new {
+        display: flex;
         position: absolute;
-        right: 9%;
+        right: 30px;
         background-color: $new-background;
         color: $new-color;
-        padding: 7px 9px;
         border-radius: 2px;
+        font-size: 14px;
+        width: 80px;
+        height: 29px;
+        justify-content: center;
+        align-items: center;
     }
 }

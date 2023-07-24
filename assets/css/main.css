@@ -126,12 +126,17 @@ li i.purple {
   -moz-text-fill-color: transparent;
 }
 .restaurant-card .new {
+  display: flex;
   position: absolute;
-  right: 9%;
+  right: 30px;
   background-color: #99E2D0;
   color: #008766;
-  padding: 7px 9px;
   border-radius: 2px;
+  font-size: 14px;
+  width: 80px;
+  height: 29px;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -186,7 +191,7 @@ section.restaurants .header {
 
 footer {
   background-color: #353535;
-  padding: 22px;
+  padding: 22px 22px 15px;
   color: #fff;
 }
 footer .logo {
