@@ -1,5 +1,7 @@
 header {
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
     .logo {
         background-color: #fff;
         margin: 0;
