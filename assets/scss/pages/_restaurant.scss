@@ -1,4 +1,4 @@
-.restaurant__img {
+.restaurant-img {
     width: 100%;
 }
 main {
@@ -9,7 +9,7 @@ main {
     padding-top: 32px;
     margin: 0;
     background-color: $background-color;
-    h2 {
+    .restaurant-title {
         font-size: $restaurant-title;
         margin: 0 41px 0 17px;
         display: flex;
@@ -17,6 +17,12 @@ main {
         align-items: center;
         i {
             font-size: 22px;
+        }
+    }
+    .menu-category {
+        &__title {
+        }
+        &__plate {
         }
     }
 }
