@@ -1,0 +1,22 @@
+.plate-button {
+    background-color: $button-color;
+    border-radius: 15px;
+    margin: 12px 0;
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    &__name {
+        flex: 1 0 100%;
+        margin: 0 0 5px;
+    }
+    &__description {
+        flex: 0 1 90%;
+        margin: 0;
+    }
+    &__price {
+        margin: 0;
+        color: $footer-background-color;
+        font-weight: 700;
+    }
+}
