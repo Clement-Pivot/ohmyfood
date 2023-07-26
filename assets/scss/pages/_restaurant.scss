@@ -1,7 +1,7 @@
 .restaurant-img {
     width: 100%;
 }
-main {
+.restaurant-main {
     background-color: $background-color;
     border-radius: 32px 32px 0 0;
     position: relative;
@@ -9,6 +9,7 @@ main {
     padding-top: 32px;
     margin: 0;
     background-color: $background-color;
+    height: 100%;
     .restaurant-title {
         font-size: $restaurant-title;
         margin: 0 41px 0 17px;
@@ -20,7 +21,15 @@ main {
         }
     }
     .menu-category {
+        padding: 0 13px;
         &__title {
+            width: 40px;
+            font-weight: 300;
+            font-size: $text-font-size;
+            text-transform: uppercase;
+            border-bottom: 3px solid $new-background;
+            height: 24px;
+            margin: 40px 0 12px;
         }
         &__plate {
         }
