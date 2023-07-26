@@ -7,9 +7,8 @@
     position: relative;
     bottom: 50px;
     padding-top: 32px;
-    margin: 0;
+    margin: 0 0 -50px;
     background-color: $background-color;
-    height: 100%;
     .restaurant-title {
         font-size: $restaurant-title;
         margin: 0 41px 0 17px;
@@ -31,5 +30,9 @@
             height: 24px;
             margin: 40px 0 12px;
         }
+    }
+    .order-button {
+        margin: 28px 0 40px;
+        justify-self: center;
     }
 }
