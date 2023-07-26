@@ -19,6 +19,11 @@ nav .logo {
   font-weight: 700;
 }
 
+.restaurant-header {
+  font-family: "Shrikhand", cursive;
+  font-size: 28px;
+}
+
 button {
   padding: 13px 18.75px;
   border-radius: 100px;
@@ -139,16 +144,33 @@ li i.purple {
   align-items: center;
 }
 
-header {
-  text-align: center;
+.nav-previous {
+  color: #000;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
-header .logo {
+
+header nav {
+  text-align: center;
+  display: flex;
   background-color: #fff;
-  margin: 0;
-  padding: 14px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 2;
   position: relative;
+  padding: 14px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav .logo {
+  margin: 0;
+  width: 100%;
+}
+header nav .nav-previous {
+  position: absolute;
+  left: 26px;
 }
 
 .description {
@@ -207,6 +229,30 @@ footer a {
 footer a i {
   margin-right: 11px;
   font-size: 13px;
+}
+
+.restaurant__img {
+  width: 100%;
+}
+
+main {
+  background-color: #F6F6F6;
+  border-radius: 32px 32px 0 0;
+  position: relative;
+  bottom: 50px;
+  padding-top: 32px;
+  margin: 0;
+  background-color: #F6F6F6;
+}
+main h2 {
+  font-size: 28px;
+  margin: 0 41px 0 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main h2 i {
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=main.css.map */

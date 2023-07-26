@@ -1,0 +1,22 @@
+.restaurant__img {
+    width: 100%;
+}
+main {
+    background-color: $background-color;
+    border-radius: 32px 32px 0 0;
+    position: relative;
+    bottom: 50px;
+    padding-top: 32px;
+    margin: 0;
+    background-color: $background-color;
+    h2 {
+        font-size: $restaurant-title;
+        margin: 0 41px 0 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i {
+            font-size: 22px;
+        }
+    }
+}
