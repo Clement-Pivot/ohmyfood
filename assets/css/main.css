@@ -231,7 +231,7 @@ footer a i {
   font-size: 13px;
 }
 
-.restaurant__img {
+.restaurant-img {
   width: 100%;
 }
 
@@ -244,14 +244,14 @@ main {
   margin: 0;
   background-color: #F6F6F6;
 }
-main h2 {
+main .restaurant-title {
   font-size: 28px;
   margin: 0 41px 0 17px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main h2 i {
+main .restaurant-title i {
   font-size: 22px;
 }
 
