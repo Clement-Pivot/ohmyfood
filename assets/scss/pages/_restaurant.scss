@@ -9,6 +9,8 @@
     padding-top: 32px;
     margin: 0 0 -50px;
     background-color: $background-color;
+    display: flex;
+    flex-direction: column;
     .restaurant-title {
         font-size: $restaurant-title;
         margin: 0 41px 0 17px;
@@ -32,7 +34,7 @@
         }
     }
     .order-button {
-        margin: 28px 0 40px;
-        justify-self: center;
+        justify-content: center;
+        margin: 28px auto 40px;
     }
 }
