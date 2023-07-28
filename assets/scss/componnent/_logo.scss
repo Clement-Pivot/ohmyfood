@@ -5,4 +5,7 @@
 
 nav .logo {
     font-size: $logo-font-size;
+    @include desktop() {
+        font-size: 34px;
+    }
 }

@@ -1,10 +1,7 @@
 .restaurant-img {
     width: 100%;
-    // &--tall{
-    //     @extend .restaurant-img;
-        height: 275px;
-        object-fit: cover;
-    // }
+    height: 275px;
+    object-fit: cover;
 }
 .restaurant-main {
     background-color: $background-color;
