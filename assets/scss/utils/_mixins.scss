@@ -9,3 +9,9 @@
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
+@mixin desktop() {
+    @media screen and (min-width: 1440px) {
+        @content
+    }
+}
