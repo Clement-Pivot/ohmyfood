@@ -1,6 +1,9 @@
 .header {
     font-size: $title-font-size;
     font-weight: 700;
+    @include desktop {
+        font-size: 40px;
+    }
 }
 
 .restaurant-header {
