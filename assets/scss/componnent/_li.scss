@@ -14,20 +14,15 @@ li {
         background-color: $purple;
         border-radius: 30px;
         padding: 4px 8px;
-        position: absolute;
-        left: 18px;
-        font-size: 14px;
-    }
-    p {
         position: relative;
-        left: -10%;
-        margin: 0;
+        left: -40px;
+        font-size: 14px;
     }
     i {
         color: $li-icon-color;
-        margin-right: 15px;
-    }
-    i.purple {
-        color: $purple;
+        margin: 0 15px 0 -20px;
+        &.purple {
+            color: $purple;
+        }
     }
 }
