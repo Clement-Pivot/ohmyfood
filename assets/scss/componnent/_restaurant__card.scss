@@ -38,9 +38,6 @@
             grid-column: 2;
             font-size: 22px;
         }
-        .full{
-            @include fa-linear-gradient();
-        }
     }
     .new {
         display: flex;

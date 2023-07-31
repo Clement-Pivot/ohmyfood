@@ -1,0 +1,9 @@
+.fa-regular.fa-heart {
+    &:active {
+        visibility: hidden;
+    }
+}
+.fa-solid.fa-heart {
+    @include fa-linear-gradient();    
+    visibility: hidden;
+}
