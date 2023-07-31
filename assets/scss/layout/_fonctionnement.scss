@@ -1,10 +1,33 @@
 .fonctionnement {
+    display: flex;
+    flex-flow: column nowrap;
+    @include desktop {
+        flex-flow: column nowrap;
+        padding: 50px 0;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
     .header {
         margin: 48px 20px 26px;
+        @include desktop {
+            margin: 0 0 25px;
+        }
     }
     ol {
         list-style: none;
         padding: 0;
         margin: 0 0 68px;
+        display: flex;
+        flex-flow: column wrap;
+        @include desktop {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0 20px;
+            li {
+                width: 25%;
+                margin: 0;
+            }
+        }
     }
 }
