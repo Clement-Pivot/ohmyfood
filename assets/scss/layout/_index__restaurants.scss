@@ -1,5 +1,6 @@
-section.restaurants {
+.restaurants {
     padding: 0 17px 48px;
+    margin: 0 auto;
     background-color: $background-color;
     display: flex;
     flex-direction: column;
@@ -9,11 +10,12 @@ section.restaurants {
         margin: 54px 0 6px;
     }
     @include desktop {
-        padding: 30px 180px 5px;
+        padding: 30px 0 5px;
         align-items: center;
         .header {
             align-self: flex-start;
-            margin: 0 0 3px;
+            margin: 0 auto 3px;
+            width: 1080px;
         }
         .restaurants__container {
             display: flex;

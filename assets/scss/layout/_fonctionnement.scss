@@ -1,10 +1,10 @@
 .fonctionnement {
     display: flex;
     flex-flow: column nowrap;
+    max-width: 1080px;
     @include desktop {
         flex-flow: column nowrap;
         padding: 50px 0;
-        max-width: 1080px;
         margin: 0 auto;
     }
     .header {
