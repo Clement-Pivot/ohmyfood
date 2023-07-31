@@ -2,6 +2,8 @@ footer {
     background-color: $footer-background-color;
     padding: 22px 22px 15px;
     color: $footer-text-color;
+    display: flex;
+    flex-direction: column;
     .logo {
         font-size: 20px;
         margin: 0 0 16px;
@@ -11,9 +13,31 @@ footer {
         color: $footer-text-color;
         margin: 7px 0;
         text-decoration: none;
-        i{
+        i {
             margin-right: 11px;
             font-size: 13px;
+        }
+    }
+    @include desktop  {
+        flex-flow: row-reverse nowrap;
+        padding: 64px 25px 30px;
+        .logo {
+            margin: 0 0 0 16px;
+        }
+        .footer__container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: flex-end;
+            a {
+                margin: 0 7px;
+            }
+            .footer__link--wide {
+                width: 200px;
+            }
+            .footer__link {
+                width: 130px;
+            }
         }
     }
 }
