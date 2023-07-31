@@ -5,7 +5,27 @@ section.restaurants {
     flex-direction: column;
     justify-content: center;
     .header {
-        padding: 0 3px;
+        padding: 0;
         margin: 54px 0 6px;
+    }
+    @include desktop {
+        padding: 30px 180px 5px;
+        align-items: center;
+        .header {
+            align-self: flex-start;
+            margin: 0 0 3px;
+        }
+        .restaurants__container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            max-width: 1080px;
+            width: 100%;
+            .restaurant-card {
+                flex: 1 0 50%;
+                max-width: 490px;
+                margin: 25px 0;
+            }
+        }
     }
 }
