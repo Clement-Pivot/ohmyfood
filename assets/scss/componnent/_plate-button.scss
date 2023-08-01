@@ -14,28 +14,36 @@
         margin: 0 0 5px;
     }
     &__description {
-        flex: 1 1 auto;
-        margin: 0;
+        flex: 1 1 0px;
+        margin: 0 6px 0 0;
         font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
     &__price {
         flex: 0 0 27px;
         margin: 0;
         color: $footer-background-color;
         font-weight: 700;
+        position: relative;
+        margin-left: -58px;
         transform: translateX(58px);
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out, margin 0.4s ease-in-out;
     }
     .fa-circle-check {
         flex: 0 0 auto;
         position: relative;
         top: -39px;
         right: -15px;
-        transform: translateX(100%);
+        transform: translateX(58px);
         transition: transform 0.4s ease-in-out;
     }
     &:hover &__price,
     &:hover .fa-circle-check {
         transform: translate(0px);
+    }
+    &:hover &__price {
+        margin-left: 0px;
     }
 }
