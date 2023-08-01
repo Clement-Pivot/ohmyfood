@@ -470,8 +470,8 @@ footer a i {
   .restaurant-main .restaurant-title {
     margin-top: 18px;
   }
-  .restaurant-main .restaurant-title i {
-    margin-left: 24px;
+  .restaurant-main .restaurant-title .like-button {
+    left: 24px;
   }
   .restaurant-main .menu-category {
     width: 634px;
