@@ -2,10 +2,10 @@
     .fa-heart {
         font-size: 22px;
         position: absolute;
-    }
-    .fa-solid.fa-heart {
-        @include fa-linear-gradient();    
-        visibility: hidden;
+        &.fa-solid {
+            @include fa-linear-gradient();    
+            visibility: hidden;
+        }
     }
     &__checkbox {
         display: none;
