@@ -7,18 +7,35 @@
     flex-flow: row wrap;
     justify-content: space-between;
     box-shadow: $nav-shadow;
+    overflow: hidden;
+    height: 41px;
     &__name {
         flex: 1 0 100%;
         margin: 0 0 5px;
     }
     &__description {
-        flex: 0 1 90%;
+        flex: 1 1 auto;
         margin: 0;
         font-size: 15px;
     }
     &__price {
+        flex: 0 0 27px;
         margin: 0;
         color: $footer-background-color;
         font-weight: 700;
+        transform: translateX(58px);
+        transition: transform 0.4s ease-in-out;
+    }
+    .fa-circle-check {
+        flex: 0 0 auto;
+        position: relative;
+        top: -39px;
+        right: -15px;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in-out;
+    }
+    &:hover &__price,
+    &:hover .fa-circle-check {
+        transform: translate(0px);
     }
 }
