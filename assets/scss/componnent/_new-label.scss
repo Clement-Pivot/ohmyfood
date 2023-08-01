@@ -1,0 +1,12 @@
+.new {
+    display: flex;
+    background-color: $new-background;
+    color: $new-color;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 80px;
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $nav-shadow;
+}

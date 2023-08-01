@@ -46,17 +46,8 @@
         }
     }
     .new {
-        display: flex;
         position: relative;
         right: 200%;
         top: -210px;
-        background-color: $new-background;
-        color: $new-color;
-        border-radius: 2px;
-        font-size: 14px;
-        width: 80px;
-        height: 29px;
-        justify-content: center;
-        align-items: center;
     }
 }
