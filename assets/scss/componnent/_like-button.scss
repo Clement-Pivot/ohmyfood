@@ -2,6 +2,7 @@
     .fa-heart {
         font-size: 22px;
         position: absolute;
+        z-index: 3;
         &.fa-solid {
             @include fa-linear-gradient();    
             visibility: hidden;
