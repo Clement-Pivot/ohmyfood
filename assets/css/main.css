@@ -433,8 +433,10 @@ footer a i {
   justify-content: space-between;
   align-items: center;
 }
-.restaurant-main .restaurant-title .fa-heart {
-  margin-top: -10px;
+.restaurant-main .restaurant-title .like-button {
+  position: relative;
+  top: -10px;
+  right: 22px;
 }
 .restaurant-main .menu-category {
   padding: 0 13px;
