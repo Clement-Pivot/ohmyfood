@@ -5,7 +5,6 @@ button {
     border-style: none;
     box-shadow: $button-shadow;
     @include gradient;
-    filter: brightness(100%);
     transition: filter 0.2s ease-in;
     &:hover {
         filter: brightness(120%);
