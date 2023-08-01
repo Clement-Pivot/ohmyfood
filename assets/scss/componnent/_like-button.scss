@@ -1,9 +1,19 @@
-.fa-regular.fa-heart {
-    &:active {
+.like-button {
+    .fa-heart {
+        font-size: 22px;
+        position: absolute;
+    }
+    .fa-solid.fa-heart {
+        @include fa-linear-gradient();    
         visibility: hidden;
     }
-}
-.fa-solid.fa-heart {
-    @include fa-linear-gradient();    
-    visibility: hidden;
+    &__checkbox {
+        display: none;
+        &:checked ~ .fa-regular.fa-heart {
+            visibility: hidden;
+        }
+        &:checked ~ .fa-solid.fa-heart {
+            visibility: visible;
+        }
+    }
 }
