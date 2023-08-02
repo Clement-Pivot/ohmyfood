@@ -494,6 +494,7 @@ footer a i {
   padding: 0 13px;
   max-width: 634px;
   width: 100%;
+  box-sizing: border-box;
 }
 .restaurant-main .menu-category__title {
   width: 40px;
