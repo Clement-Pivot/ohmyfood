@@ -1,0 +1,38 @@
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background-color: $background-color;
+    animation: loading 2s ease-out 0ms both;
+    .dots {
+        position: absolute;
+        top: 48%;
+        bottom: 48%;
+        left: 30%;
+        right: 30%;
+        border-radius: 30px;
+        background-color: $footer-background-color;
+        transform-origin: 0% 50%;
+        animation: filling 1.5s cubic-bezier(0,.81,1,.46) 0.2s both;
+    }
+}
+@keyframes loading {
+    0%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes filling {
+    0% {
+        transform: scale(0%, 100%);
+    }
+    100% {
+        transform: scale(100%, 100%);
+    }
+}
