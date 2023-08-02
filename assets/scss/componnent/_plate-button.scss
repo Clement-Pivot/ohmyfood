@@ -9,6 +9,7 @@
     box-shadow: $nav-shadow;
     overflow: hidden;
     height: 41px;
+    max-width: 634px;
     &__name {
         flex: 1 0 100%;
         margin: 0 0 5px;
