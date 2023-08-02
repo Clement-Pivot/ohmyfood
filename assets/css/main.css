@@ -470,6 +470,11 @@ footer a i {
   background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
+  max-width: 1055px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .restaurant-main .restaurant-title {
   font-size: 28px;
@@ -482,9 +487,12 @@ footer a i {
   position: relative;
   top: -10px;
   right: 22px;
+  left: 24px;
 }
 .restaurant-main .menu-category {
   padding: 0 13px;
+  max-width: 634px;
+  width: 100%;
 }
 .restaurant-main .menu-category__title {
   width: 40px;
@@ -500,21 +508,8 @@ footer a i {
   margin: 28px auto 40px;
 }
 @media screen and (min-width: 1440px) {
-  .restaurant-main {
-    display: flex;
-    align-items: center;
-    max-width: 1055px;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .restaurant-main .restaurant-title {
     margin-top: 18px;
-  }
-  .restaurant-main .restaurant-title .like-button {
-    left: 24px;
-  }
-  .restaurant-main .menu-category {
-    width: 634px;
   }
 }
 

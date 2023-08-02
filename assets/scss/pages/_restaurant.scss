@@ -17,6 +17,11 @@
     background-color: $background-color;
     display: flex;
     flex-direction: column;
+    max-width: 1055px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     .restaurant-title {
         font-size: $restaurant-title;
         margin: 0 41px 0 17px;
@@ -27,10 +32,13 @@
             position: relative;
             top: -10px;
             right: 22px;
+            left: 24px;
         }
     }
     .menu-category {
         padding: 0 13px;
+        max-width: 634px;
+        width: 100%;
         &__title {
             width: 40px;
             font-weight: 300;
@@ -46,19 +54,11 @@
         margin: 28px auto 40px;
     }
     @include desktop {
-        display: flex;
-        align-items: center;
-        max-width: 1055px;
-        margin-left: auto;
-        margin-right: auto;
         .restaurant-title {
             margin-top: 18px;
-            .like-button {
-                left: 24px;
-            }
         }
         .menu-category {
-            width: 634px;
+            
         }
     }
 }
