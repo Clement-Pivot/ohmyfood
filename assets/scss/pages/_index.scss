@@ -5,8 +5,8 @@
     left: 0;
     right: 0;
     z-index: 4;
-    // background-color: $background-color;
-    // animation: loading 2s ease-out 0ms both;
+    background-color: $background-color;
+    animation: loading 2s ease-out 0ms both;
     .dots {
         position: absolute;
         top: 48%;
@@ -14,9 +14,9 @@
         left: 30%;
         right: 30%;
         border-radius: 30px;
-        // background-color: $footer-background-color;
+        background-color: $footer-background-color;
         transform-origin: 0% 50%;
-        // animation: filling 1.5s cubic-bezier(0,.81,1,.46) 0.2s both;
+        animation: filling 1.5s cubic-bezier(0,.81,1,.46) 0.2s both;
     }
 }
 @keyframes loading {
