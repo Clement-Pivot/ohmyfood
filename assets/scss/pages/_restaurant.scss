@@ -60,3 +60,16 @@
         }
     }
 }
+@for $i from 1 through 10 {
+    .plate-#{$i} {
+        animation: slide 0.4s ease-in-out 200ms*$i both;
+    }
+}
+@keyframes slide {
+    0% {
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}

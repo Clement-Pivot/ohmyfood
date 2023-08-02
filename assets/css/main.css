@@ -514,4 +514,53 @@ footer a i {
   }
 }
 
+.plate-1 {
+  animation: slide 0.4s ease-in-out 200ms both;
+}
+
+.plate-2 {
+  animation: slide 0.4s ease-in-out 400ms both;
+}
+
+.plate-3 {
+  animation: slide 0.4s ease-in-out 600ms both;
+}
+
+.plate-4 {
+  animation: slide 0.4s ease-in-out 800ms both;
+}
+
+.plate-5 {
+  animation: slide 0.4s ease-in-out 1000ms both;
+}
+
+.plate-6 {
+  animation: slide 0.4s ease-in-out 1200ms both;
+}
+
+.plate-7 {
+  animation: slide 0.4s ease-in-out 1400ms both;
+}
+
+.plate-8 {
+  animation: slide 0.4s ease-in-out 1600ms both;
+}
+
+.plate-9 {
+  animation: slide 0.4s ease-in-out 1800ms both;
+}
+
+.plate-10 {
+  animation: slide 0.4s ease-in-out 2000ms both;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
