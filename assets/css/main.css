@@ -13,7 +13,7 @@ body {
 nav .logo {
   font-size: 30px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   nav .logo {
     font-size: 34px;
   }
@@ -276,7 +276,7 @@ header nav .nav-previous {
 .description .header {
   margin: 39px 40px 0;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   .description .header {
     font-size: 40px;
   }
@@ -384,7 +384,7 @@ footer a i {
   margin-right: 11px;
   font-size: 13px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   footer {
     flex-flow: row-reverse nowrap;
     padding: 64px 25px 30px;
@@ -450,7 +450,7 @@ footer a i {
   object-fit: cover;
   object-position: 50% 60%;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   .restaurant-img {
     height: 390px;
   }
@@ -504,7 +504,7 @@ footer a i {
   justify-content: center;
   margin: 28px auto 40px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1080px) {
   .restaurant-main .restaurant-title {
     margin-top: 18px;
   }
