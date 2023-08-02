@@ -28,11 +28,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        max-width: 341px;
+        width: 100%;
         .like-button {
             position: relative;
             top: -10px;
             right: 22px;
-            left: 24px;
         }
     }
     .menu-category {
@@ -56,9 +57,6 @@
     @include desktop {
         .restaurant-title {
             margin-top: 18px;
-        }
-        .menu-category {
-            
         }
     }
 }

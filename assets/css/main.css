@@ -482,12 +482,13 @@ footer a i {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 341px;
+  width: 100%;
 }
 .restaurant-main .restaurant-title .like-button {
   position: relative;
   top: -10px;
   right: 22px;
-  left: 24px;
 }
 .restaurant-main .menu-category {
   padding: 0 13px;
