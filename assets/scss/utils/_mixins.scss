@@ -10,8 +10,8 @@
     -moz-text-fill-color: transparent;
 }
 
-@mixin desktop() {
-    @media screen and (min-width: 1440px) {
+@mixin desktop($width: 1440px) {
+    @media screen and (min-width: $width) {
         @content
     }
 }
