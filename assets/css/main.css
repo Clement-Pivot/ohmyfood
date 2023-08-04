@@ -416,7 +416,7 @@ footer a i {
   right: 0;
   z-index: 4;
   background-color: #F6F6F6;
-  animation: loading 2s ease-out 0ms both;
+  animation: hiding 2s ease-out 0ms both;
 }
 .loader .dots {
   position: absolute;
@@ -430,7 +430,7 @@ footer a i {
   animation: filling 1.5s cubic-bezier(0, 0.81, 1, 0.46) 0.2s both;
 }
 
-@keyframes loading {
+@keyframes hiding {
   0%, 80% {
     opacity: 1;
   }

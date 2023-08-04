@@ -6,7 +6,7 @@
     right: 0;
     z-index: 4;
     background-color: $background-color;
-    animation: loading 2s ease-out 0ms both;
+    animation: hiding 2s ease-out 0ms both;
     .dots {
         position: absolute;
         top: 48%;
@@ -19,7 +19,7 @@
         animation: filling 1.5s cubic-bezier(0,.81,1,.46) 0.2s both;
     }
 }
-@keyframes loading {
+@keyframes hiding {
     0%, 80% {
         opacity: 1;
     }
