@@ -33,6 +33,13 @@
         transition: transform 0.4s ease-in-out, margin 0.4s ease-in-out;
     }
     .fa-circle-check {
+        color: white;
+        font-size: 22px;
+        background-color: $new-background;
+        padding: 25px 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex: 0 0 auto;
         position: relative;
         top: -39px;

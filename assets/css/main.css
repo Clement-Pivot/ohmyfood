@@ -180,6 +180,13 @@ li i.purple {
   transition: transform 0.4s ease-in-out, margin 0.4s ease-in-out;
 }
 .plate-button .fa-circle-check {
+  color: white;
+  font-size: 22px;
+  background-color: #99E2D0;
+  padding: 25px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 0 0 auto;
   position: relative;
   top: -39px;
@@ -215,16 +222,6 @@ li i.purple {
 }
 .like-button__checkbox:checked ~ .fa-solid.fa-heart {
   visibility: visible;
-}
-
-.fa-circle-check {
-  color: white;
-  font-size: 22px;
-  background-color: #99E2D0;
-  padding: 25px 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .new {
