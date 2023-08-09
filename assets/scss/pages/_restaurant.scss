@@ -13,23 +13,24 @@
     position: relative;
     bottom: 50px;
     padding-top: 32px;
-    margin: 0 0 -50px;
+    margin: 0 auto -50px;
     background-color: $background-color;
     display: flex;
     flex-direction: column;
     max-width: 1055px;
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     .restaurant-title {
         font-size: $restaurant-title;
-        margin: 0 41px 0 17px;
-        display: flex;
+        margin: 0;
+        display: grid;
+        grid-template-columns: max-content 22px;
+        grid-template-rows: 27px;
         justify-content: space-between;
         align-items: center;
         max-width: 341px;
         width: 100%;
+        padding: 0;
         .like-button {
             position: relative;
             top: -10px;
