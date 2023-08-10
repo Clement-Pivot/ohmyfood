@@ -54,7 +54,8 @@ nav .logo {
   font-size: 28px;
 }
 
-button {
+.button {
+  text-decoration: none;
   padding: 17.5px 18.75px;
   border-radius: 50px;
   color: #fff;
@@ -63,7 +64,7 @@ button {
   background: linear-gradient(0deg, #9356DC, #FF79DA);
   transition: filter 0.2s ease-in;
 }
-button:hover {
+.button:hover {
   filter: brightness(120%);
 }
 
