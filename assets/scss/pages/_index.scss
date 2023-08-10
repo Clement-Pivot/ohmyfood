@@ -19,20 +19,3 @@
         animation: filling 1.5s cubic-bezier(0,.81,1,.46) 0.2s both;
     }
 }
-@keyframes hiding {
-    0%, 80% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-@keyframes filling {
-    0% {
-        transform: scale(0%, 100%);
-    }
-    100% {
-        transform: scale(100%, 100%);
-    }
-}
