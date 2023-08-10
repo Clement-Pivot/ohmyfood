@@ -6,15 +6,18 @@
         &.fa-solid {
             @include fa-linear-gradient();    
             visibility: hidden;
+            transition: transform 1s ease-in-out;
+            transform: scale(0);
         }
     }
     &__checkbox {
         display: none;
         &:checked ~ .fa-regular.fa-heart {
-            visibility: hidden;
+            animation: hiding 1s forwards;
         }
         &:checked ~ .fa-solid.fa-heart {
             visibility: visible;
+            transform: scale(1);
         }
     }
 }

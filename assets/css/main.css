@@ -1,3 +1,28 @@
+@keyframes hiding {
+  0%, 80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes filling {
+  0% {
+    transform: scale(0%, 100%);
+  }
+  100% {
+    transform: scale(100%, 100%);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 body {
   padding: 0;
   margin: 0;
@@ -212,15 +237,18 @@ button:hover {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   visibility: hidden;
+  transition: transform 1s ease-in-out;
+  transform: scale(0);
 }
 .like-button__checkbox {
   display: none;
 }
 .like-button__checkbox:checked ~ .fa-regular.fa-heart {
-  visibility: hidden;
+  animation: hiding 1s forwards;
 }
 .like-button__checkbox:checked ~ .fa-solid.fa-heart {
   visibility: visible;
+  transform: scale(1);
 }
 
 .new {
@@ -545,15 +573,6 @@ footer a i {
 
 .plate-10 {
   animation: slide 0.4s ease-in-out 2000ms both;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
