@@ -7,7 +7,7 @@
     z-index: 4;
     background-color: $background-color;
     animation: hiding 2s ease-out 0ms both;
-    .dots {
+    .loader__bar {
         position: absolute;
         top: 48%;
         bottom: 48%;

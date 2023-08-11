@@ -439,7 +439,7 @@ footer a i {
   background-color: #F6F6F6;
   animation: hiding 2s ease-out 0ms both;
 }
-.loader .dots {
+.loader .loader__bar {
   position: absolute;
   top: 48%;
   bottom: 48%;

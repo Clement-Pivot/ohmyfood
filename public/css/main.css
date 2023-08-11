@@ -619,7 +619,7 @@ footer a i {
   -webkit-animation: hiding 2s ease-out 0ms both;
           animation: hiding 2s ease-out 0ms both;
 }
-.loader .dots {
+.loader .loader__bar {
   position: absolute;
   top: 48%;
   bottom: 48%;
