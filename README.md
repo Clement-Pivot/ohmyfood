@@ -1,6 +1,6 @@
 # OhMyFood
 
-[![pages-build-deployment](https://github.com/Clement-Pivot/booki-starter-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Clement-Pivot/ohmyfood/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment]([https://github.com/Clement-Pivot/ohmyfood/actions/workflows/pages/pages-build-deployment](https://github.com/Clement-Pivot/ohmyfood/actions/workflows/pages/pages-build-deployment)/badge.svg)](https://github.com/Clement-Pivot/ohmyfood/actions/workflows/pages/pages-build-deployment)
 
 Code du projet 3 Ohmyfood de la formation React d'OpenClassroom en HTML et CSS uniquement.
 
