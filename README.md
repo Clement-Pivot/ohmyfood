@@ -1,11 +1,11 @@
 # OhMyFood
 
-[![pages-build-deployment](https://github.com/malfeitor/booki-starter-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/malfeitor/ohmyfood/actions/workflows/pages/pages-build-deployment)
+[![pages-build-deployment](https://github.com/Clement-Pivot/booki-starter-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Clement-Pivot/ohmyfood/actions/workflows/pages/pages-build-deployment)
 
 Code du projet 3 Ohmyfood de la formation React d'OpenClassroom en HTML et CSS uniquement.
 
 # Website
-[Ohmyfood](https://malfeitor.github.io/ohmyfood/)
+[Ohmyfood](https://Clement-Pivot.github.io/ohmyfood/)
 
 ### Pré-requis
 
@@ -14,7 +14,7 @@ Code du projet 3 Ohmyfood de la formation React d'OpenClassroom en HTML et CSS u
 ## Démarrage
 
 Ouvrez le fichier index.html avec un navigateur internet.
-Vous pouvez aussi aller sur la page [GitHub Pages](https://malfeitor.github.io/ohmyfood/) pour voir le site sans rien télécharger.
+Vous pouvez aussi aller sur la page [GitHub Pages](https://Clement-Pivot.github.io/ohmyfood/) pour voir le site sans rien télécharger.
 
 ## Fabriqué avec
 
@@ -25,4 +25,4 @@ Vous pouvez aussi aller sur la page [GitHub Pages](https://malfeitor.github.io/o
 
 ## Auteurs
 
-* **Clément Pivot** _alias_ [@malfeitor](https://github.com/malfeitor)
+* **Clément Pivot** _alias_ [@malfeitor](https://github.com/Clement-Pivot)
